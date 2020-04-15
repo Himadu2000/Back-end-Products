@@ -19,36 +19,11 @@ const SecondSideNav = () => {
   }
   return (
     <>
-      <div className="secondsidenav">
-        <div className={openCloseStyle}>
-          <MDBContainer>
-            <MDBBtn className="Button" color="dark">
-              <MDBRow>
-                <MDBCol sm="2">
-                  <MDBIcon icon={sideNavOpenIcon} />
-                </MDBCol>
-                <MDBCol sm="8">This is a cat</MDBCol>
-              </MDBRow>
-            </MDBBtn>
-            <MDBBtn className="Button" color="dark">
-              <MDBRow>
-                <MDBCol sm="2">
-                  <MDBIcon icon={sideNavOpenIcon} />
-                </MDBCol>
-                <MDBCol sm="8">This is a cat</MDBCol>
-              </MDBRow>
-            </MDBBtn>
-
-            <MDBBtn onClick={sideNavOpenEvent} className="Button" color="dark">
-              <MDBRow>
-                <MDBCol sm="2">
-                  <MDBIcon icon={sideNavOpenIcon} />
-                </MDBCol>
-                <MDBCol sm="8">Close</MDBCol>
-              </MDBRow>
-            </MDBBtn>
-          </MDBContainer>
-        </div>
+      <div className="secondSidenav">
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#clients">Clients</a>
+        <a href="#contact">Contact</a>
       </div>
     </>
   );

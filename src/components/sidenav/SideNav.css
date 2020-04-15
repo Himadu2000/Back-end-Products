@@ -1,0 +1,25 @@
+/* The side navigation menu */
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Stay on top */
+  top: 0;
+  /* Stay at the top */
+  left: 0;
+  background-color: #ffae51;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+}

@@ -1,12 +1,10 @@
 import React from "react";
-import SideNav from "./components/sidenav/SideNav";
-import SecondSideNav from "./components/secondSideNav/SideNav";
+import GlobalNavigation from "./components/GlobalNav";
 
 function App() {
   return (
     <>
-      <SideNav />
-      <SecondSideNav />
+      <GlobalNavigation />
     </>
   );
 }

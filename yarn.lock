@@ -165,10 +165,10 @@
     raf-schd "^2.1.0"
     react-scrolllock "^5.0.1"
 
-"@atlaskit/logo@^12.3.3":
-  version "12.3.3"
-  resolved "https://registry.yarnpkg.com/@atlaskit/logo/-/logo-12.3.3.tgz#dd329f35f32e84ff9b135ffa566ca19ba31c9d7d"
-  integrity sha512-xeuseG2xDRmja+O9Wa1lib7VFkBMGBdC1N/L+lPcazL+hWEJou+garwZ2Ir6FQktqCr5/yk5AAPMn11GNLseSA==
+"@atlaskit/logo@^13.0.0":
+  version "13.0.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/logo/-/logo-13.0.0.tgz#de06131fd0729b471adc3928d3627ead4a88bbb3"
+  integrity sha512-unbiQ3ceUCcUu2K7+jz8MLC0Md+/lnkjiGnrZgOq6J7F+FGzhefWkKibvxCu3PewRkh9NwCgw4cGLeJliesxLQ==
   dependencies:
     react-uid "^2.2.0"
     tslib "^1.9.3"

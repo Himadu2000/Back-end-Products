@@ -114,6 +114,13 @@
     "@babel/runtime" "^7.0.0"
     prop-types "^15.5.10"
 
+"@atlaskit/ds-lib@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/ds-lib/-/ds-lib-1.1.0.tgz#a9b30e2225ddfd6e5a589afb8d2fceaf960c06dc"
+  integrity sha512-z8MIOym7PwMSCxntlCyBgxt/eFz26VoLgaCRlZQSrE8zZ1AY+eE31erYTcF/6apbJbSwy5urImYEg8sCryBICA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+
 "@atlaskit/global-navigation@^9.0.1":
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/@atlaskit/global-navigation/-/global-navigation-9.0.1.tgz#e94abd872f003faa29c9dc662bcbb853b2f630f1"
@@ -165,13 +172,14 @@
     raf-schd "^2.1.0"
     react-scrolllock "^5.0.1"
 
-"@atlaskit/logo@^12.3.3":
-  version "12.3.3"
-  resolved "https://registry.yarnpkg.com/@atlaskit/logo/-/logo-12.3.3.tgz#dd329f35f32e84ff9b135ffa566ca19ba31c9d7d"
-  integrity sha512-xeuseG2xDRmja+O9Wa1lib7VFkBMGBdC1N/L+lPcazL+hWEJou+garwZ2Ir6FQktqCr5/yk5AAPMn11GNLseSA==
+"@atlaskit/logo@^13.3.0":
+  version "13.3.0"
+  resolved "https://registry.yarnpkg.com/@atlaskit/logo/-/logo-13.3.0.tgz#8a06da93971c9d065db4abce73355c53d14b3569"
+  integrity sha512-ggE3Pa0M7wJAK8uhpvobTocLcN3aou3Tiibbk3R1SrKgUWLEnLysMOMM4RkBaJBhlobndYeDPwU+YErltQ0MZg==
   dependencies:
+    "@atlaskit/ds-lib" "^1.1.0"
+    "@babel/runtime" "^7.0.0"
     react-uid "^2.2.0"
-    tslib "^1.9.3"
 
 "@atlaskit/navigation-next@^8.0.2":
   version "8.0.3"
@@ -1231,14 +1239,14 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.9.0", "@babel/runtime@^7.0.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
+"@babel/runtime@7.9.0":
   version "7.9.0"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.0.tgz#337eda67401f5b066a6f205a3113d4ac18ba495b"
   integrity sha512-cTIudHnzuWLS56ik4DnRnqqNf8MkdUzV4iFFI1h7Jo9xvrpQROYaAnaSd2mHLQAzzZAPfATynX5ord6YlNYNMA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.4":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.1", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.4", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7":
   version "7.9.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.9.2.tgz#d90df0583a3a252f09aaa619665367bae518db06"
   integrity sha512-NE2DtOdufG7R5vnfQUTehdTfNycfUANEtCa9PssN9O/xmTzP4E08UI797ixaei6hBEVL9BI/PsdJS5x7mWoB9Q==
